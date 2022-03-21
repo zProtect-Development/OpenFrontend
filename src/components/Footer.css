@@ -1,0 +1,50 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    height: 7rem;
+    border-top: 1px solid #333333;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.footer-links > div {
+    cursor: pointer;
+    color: #dadada;
+    padding: 10px 10px 8px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-links > div:hover {
+    color: #696969;
+}
+
+.footer-copy {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #c5c5c5;
+    font-size: 100%;
+}
+
+.footer-small {
+    font-size: 12.5px;
+}

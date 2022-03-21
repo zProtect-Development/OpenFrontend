@@ -1,0 +1,131 @@
+.price-contain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: max(120px, 12%);
+}
+
+.price {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.price-title {
+    color: #dadada;
+    margin: 0;
+    font-size: 300%;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-top: 0.3rem;
+    padding-bottom: 50px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.price-content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    width: 85%;
+}
+
+.price-box {
+    margin: 15px 24px;
+    background: transparent;
+    border: 1px solid #696969;
+    width: 100%;
+    padding: 32px 24px;
+    border-radius: 30px;
+    position: relative;
+    font-size: 1rem;
+}
+
+.price-box-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #696969;
+    padding-bottom: 20px;
+}
+
+.price-box-header-text {
+    font-size: 1.5rem;
+    color: #dadada;
+    text-align: left;
+}
+
+.price-box-header-small {
+    font-size: 1rem;
+    color: #dadada;
+    text-align: left;
+}
+
+.price-box-header-price {
+    font-size: 1.75rem;
+    color: #dadada;
+    font-weight: 700;
+}
+
+.price-box-lists {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.price-box-list {
+    margin: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    color: #dadada;
+}
+
+.price-box-list li {
+    display: grid;
+    grid-template-columns: 12px 1fr;
+    column-gap: 16px;
+    align-items: center;
+    margin: 10px;
+    text-align: left;
+}
+
+.price-box-list li::before {
+    content: "";
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    height: 12px;
+    text-align: center;
+    width: 12px;
+    background-image: url('../assets/plus.svg');
+}
+
+.price-box-list-alt li::before {
+    background-image: url('../assets/minus.svg') !important;
+}
+
+.price-btn-contain {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.price-btn {
+    width: fit-content;
+    margin-right: 20px;
+}

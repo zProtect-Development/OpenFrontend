@@ -1,0 +1,15 @@
+.item {
+    color: #dadada;
+    padding: 10px 10px 8px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 50px;
+}
+
+.item:hover {
+    color: #696969;
+}

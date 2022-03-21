@@ -1,0 +1,120 @@
+.login-contain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+}
+
+.login {
+    position: relative;
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-height: 300px) {
+    .login-contain {
+        padding-top: max(120px, 12%) !important;
+    }
+}
+
+.login-form {
+    width: 100%;
+    max-width: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-title {
+    color: #dadada;
+    margin: 0;
+    font-size: 300%;
+    line-height: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding-top: 0.3rem;
+    padding-bottom: 50px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.login-input {
+    background: #3b3b3b;
+    width: 75%;
+    min-width: 200px;
+    color: #dadada;
+    text-align: center;
+    padding: 12px 5px;
+    margin: 10px auto;
+    /* transition: 0.25s; */
+    border: none;
+    border-radius: 10px;
+}
+
+.login-input-no-margin {
+    margin-bottom: 0;
+}
+
+.login-input:focus {
+    outline: 2px solid #dadada;
+}
+
+.login-input:invalid {
+    outline: 2px solid #ff3b3b;
+}
+
+.login-text {
+    font-size: 1rem;
+    text-align: center;
+    color: #dadada;
+}
+
+.login-error-text {
+    height: 20px;
+    color: #ff3b3b;
+}
+
+.login-error-hidden {
+    display: none;
+}
+
+.login-btns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: #dadada;
+}
+
+.login-btn {
+    padding: 10px 25px;
+    margin: 20px 10px;
+    background: #696969;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    display: inline-block;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login-invisible {
+    display: none;
+}
+
+.grecaptca-badge {
+    z-index: 9;
+}

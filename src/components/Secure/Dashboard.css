@@ -1,0 +1,87 @@
+.dash-contain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+}
+
+.dash {
+    position: relative;
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (max-height: 250px) {
+    .dash-contain {
+        padding-top: max(120px, 12%) !important;
+    }
+}
+
+.dash-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.dash-title {
+    color: #dadada;
+    font-size: 300%;
+}
+
+.dash-desc {
+    color: #c5c5c5;
+    font-size: 100%;
+}
+
+.dash-error-text {
+    height: 20px;
+    color: #ff3b3b;
+}
+
+.dash-hide {
+    display: none;
+}
+
+.dash-horiz,
+.dash-file-upload {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+.dash-horiz {
+    margin-top: 30px;
+}
+
+.btn-first {
+    margin-left: 0 !important;
+}
+
+.dash-file-upload .btn {
+    margin-left: 0;
+    width: 45%;
+    align-items: center;
+    justify-content: center;
+}
+
+.dash-file-upload .dash-text {
+    width: 55%;
+    text-align: right;
+    color: #c5c5c5;
+}
+
+.dash-action {
+    margin-top: 5%;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
+}

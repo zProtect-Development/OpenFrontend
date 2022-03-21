@@ -1,0 +1,147 @@
+.pay-contain {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-top: 0;
+}
+
+.pay {
+    position: relative;
+    /* width: 100vw; */
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+}
+
+@media (max-height: 300px) {
+    .pay-contain {
+        padding-top: max(120px, 12%) !important;
+    }
+}
+
+.pay-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pay-title {
+    color: #dadada;
+    font-size: 200%;
+}
+
+.pay-title-medium {
+    color: #dadada;
+    font-size: 150%;
+}
+
+.pay-title-large {
+    color: #dadada;
+    font-size: 300%;
+}
+
+.pay-desc {
+    color: #c5c5c5;
+    font-size: 100%;
+}
+
+.pay-desc-bottom {
+    margin-top: 30px;
+}
+
+.pay-desc-price {
+    align-self: flex-start;
+    font-size: 115%;
+}
+
+.pay-hide {
+    display: none;
+}
+
+.pay-detail {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pay-image {
+    height: auto;
+    width: 100%;
+    max-width: 200px;
+}
+
+.pay-content {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pay-hide {
+    display: none;
+}
+
+.pay-dropdown-wrap {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.pay-dropdown {
+    width: 100%;
+    background-color: #696969;
+    border: none !important;
+    border-radius: 50px !important;
+    color: white !important;
+}
+
+.pay-dropdown > div > input {
+    color: white !important;
+    margin-left: 10px;
+}
+
+.pay-dropdown > div > span {
+    padding-left: 10px;
+}
+
+.pay-dropdown > div > svg {
+    color: white !important;
+    margin: 0 10px;
+}
+
+.pay-dropdown > .react-dropdown-select-dropdown {
+    min-width: 100% !important;
+    border-radius: 15px !important;
+    background: #696969;
+    border: 1px solid #777777;
+}
+
+.pay-dropdown > .react-dropdown-select-dropdown > span {
+    border: 1px solid #777777;
+    padding-left: 15px;
+}
+
+.pay-text-small {
+    color: #c5c5c5;
+    font-size: 75%;
+    align-self: flex-start;
+}
+
+.pay-text-darker {
+    color: #dddddd;
+    padding-left: 0.25rem;
+}
+
+.pay-btn {
+    align-self: flex-start;
+    margin-left: 0 !important;
+    margin-top: 20px;
+}
